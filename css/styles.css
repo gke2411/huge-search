@@ -1,6 +1,6 @@
 *{
 	box-sizing: border-box;
-	transition: all .3s ease-in;
+	transition: all .25s ease-in;
 	}
 html{
 	font-family: Arial, sans-serif;
@@ -34,6 +34,9 @@ body{
 .popular{
 	margin-right: 5%;
 }
+.people ul li a img{
+	border-radius: 50%;
+}
 .top p{
 	text-transform: uppercase;
 	font-weight: 600;
@@ -50,12 +53,7 @@ body{
 	padding: 0;
 	margin: 0;
 }
-.top ul li a img{
-	display: inline-block;
-	margin-right: 10px;
-	width: 20%;
-}
-.top ul li a{	
+.top__link{	
 	font-size: 9px;
 	text-transform: capitalize;
 	text-decoration: none;
@@ -65,43 +63,20 @@ body{
 	padding: 7px;
 	font-weight: 700;
 }
-.top ul li a .thumb{
+.top__link img{
 	display: inline-block;
-	margin: 0 auto;
 	margin-right: 10px;
-	padding: 0;
 	width: 20%;
 }
-.top ul li a .thumb img{
-	width: 30px;
-}
-.top ul li a .link__name{
+.link__name{
 	width: 70%;
 	display: inline-block;
 	vertical-align: middle;
-	line-height: normal;
 }
-/* .top ul li a span{
-	/* vertical-align: middle; */
-	/* display: inline-block;	 */
-	height: 100%;
-	width:  70%;
-	/* line-height: 60px; */
-	/* line-height: normal; */
-} */
-.top ul li a:hover,
-.top ul li a:focus{
+.top__link:hover,
+.top__link:focus{
 	background: rgba(118,117,128,0.1);
 	color: #ec5a62;	
-}
-/* .top ul li img{
-	display: inline-block;
-	margin-right: 10px;
-	width: 30px;
-	height: 30px;
-} */
-.people ul li a img{
-	border-radius: 50%;
 }
 .search_request{
 	display: inline-block;
